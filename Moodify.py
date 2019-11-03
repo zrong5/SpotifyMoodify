@@ -7,6 +7,9 @@ def main():
     # authorization credentials
     user_name = sys.argv[1]
     redirect_uri = "https://www.google.com/"
+    client_id = "Obtain client ID from Spotify from App Dev site"
+    client_secret = "Obtain client secret from Spotify App Dev site"
+
     scope = "user-library-read user-top-read playlist-modify-public user-follow-read"
 
     # authorize user 
